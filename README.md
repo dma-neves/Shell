@@ -1,8 +1,10 @@
 # Shell
 **Description:**
   - Simple unix shell / command interpreter made in c as part of an assignement for the *Operating systems fundamentals* course
-  - The shell contains 2 internal commands: `echo` and `end` and is able to execute various external commands
-  - The shell also alows for input and output rederection by using `>` and `<`
+  - Features:
+    1. 2 internal commands: `echo` and `end` and is able to execute various external commands
+    2. input and output rederection by using `>` and `<`
+    3. Ability to run external commands (processes) in background by adding `&` after the specified command
   
 **Compiling:**
 Compile the program using the Makefile (command `make`)
