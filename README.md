@@ -6,5 +6,9 @@
     2. Allows for input and output rederection by using the `>` and `<` characters
     3. Ability to run external commands (processes) in background by adding a `&` after the specified command
   
+**Requirements**
+  - Unix based operating system
+  - GCC compiler
+
 **Compiling:**
 Compile the program using the Makefile (command `make`)
